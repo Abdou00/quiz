@@ -162,8 +162,6 @@ var currentquestion = 0,
         }
     }
 
-
-
     function nextQuestion() {
         submt = true;
         //alert("nQ");
@@ -180,8 +178,6 @@ var currentquestion = 0,
         }
         addChoices(quiz[currentquestion]['choices']);
         setupButtons();
-        progressBarValue = (Number(currentquestion + 1) / quiz.length) * 100
-        dispProgressBar();
     }
     
     function processQuestion() {
@@ -197,7 +193,6 @@ var currentquestion = 0,
             }
     }
 
-
     function setupButtons() {
         $('.choice').on('mouseover', function () {
             $(this).css({
@@ -211,6 +206,7 @@ var currentquestion = 0,
         })
         $('.choice').on('click', function () {
             //alert("");
+            $('.choice').off();
             choice = $(this).attr('data-index');
             $('.choice').removeAttr('style').off('mouseout mouseover');
             $(this).css({
@@ -230,9 +226,9 @@ var currentquestion = 0,
             });
             $('#explanation').html('<strong>Incorrect.</strong> ' + htmlEncode(quiz[currentquestion]['explanation']));
         }
-        	$("#submitbutton").click(function(){
+            $("#submitbutton").click(function(){
                alert("click");
-                  $('.choice').off('click', choice);
+                  $('.choice').off();
                  $(this).off('click');
                  processQuestion(choice);
              });
@@ -310,8 +306,7 @@ var currentquestion = 0,
     }
 
     init();
-});
-/*
+});/*
 Script avec un bouton check anwser
 var currentquestion = 0,
  score = 0,
