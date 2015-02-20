@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Metrobox'</title>
+
+    <%= csrf_meta_tags %>
+    <!-- Bootstrap Core CSS -->
+    <%= stylesheet_link_tag "bootstrap.min.css" %>
+    <%= stylesheet_link_tag "animate.css" %>
+    <!-- Theme CSS -->
+    <%= stylesheet_link_tag "style.css" %>
+    <%= stylesheet_link_tag "default.css" %>
+    <%= stylesheet_link_tag "application.css.scss" %>
+  </head>
+
+  <body>
+      <%= yield %>
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 col-lg-12">
+                <div class="wow shake" data-wow-delay="0.4s">
+                <div class="page-scroll marginbot-30">
+                  <a href="#intro" id="totop" class="btn btn-circle">
+                    <i class="fa fa-angle-double-up animated"></i>
+                  </a>
+                </div>
+                </div>Pôles. All rights reserved.</p>
+              </div>
+            </div>  
+          </div>
+        </footer>
+
+        <!-- Core JavaScript Files -->
+        <%= javascript_include_tag "jquery.min.js" %>
+        <%= javascript_include_tag "bootstrap.min.js" %>
+        <%= javascript_include_tag "jquery.easing.min.js" %> 
+        <%= javascript_include_tag "jquery.scrollTo.js" %>
+        <%= javascript_include_tag "wow.min.js" %>
+        <!-- Custom Theme JavaScript -->
+        <%= javascript_include_tag "custom.js" %>
+        <%= javascript_include_tag "application.js" %>
+  </body>
+</html>
