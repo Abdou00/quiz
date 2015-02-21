@@ -96,8 +96,7 @@ var quiz = [
             "choices"  : [
                     "Ludivine pense que c'est parce qu'il faut rééquilibrer l'économie en Île de France.",
                     "Mouloud est sûr à 100% que c'est parce que la banlieue c'est moche donc faut la dissoudre dans Paris qui est plus beau !",
-                    "Samira a étudié l'histoire, elle dit que c'est parce que depuis toujours dans l'histoire Paris s'étend.",
-                    "Et Lee philosophe: c'est parce que Paris est comme une vielle dame elle s'ennuie toute seule..."
+                    "Samira a étudié l'histoire, elle dit que c'est parce que depuis toujours dans l'histoire Paris s'étend."
                           ],
             "correct" : "Samira a étudié l'histoire, elle dit que c'est parce que depuis toujours dans l'histoire Paris s'étend.",
             "explanation" : "Paris en effet s'est toujours construite par ajouts successifs de territoires et de communes alentours, au moins jusqu’au XIXème siècle.",
@@ -108,7 +107,6 @@ var quiz = [
             "choices"  : [
                     "Ludivine ajoute que c’est pour être plus fort économiquement que les autres capitales du monde",
                     "Mamadou dit que c’est à cause du logement : y en a pas assez de construit chaque année ! Et des transports : le RER est saturé et il marche mal.",
-                    "Lee pense que c’est juste une question de pouvoir ",
                     "Tous les 3 ont raison !"
                          ],
             "correct" : "Tous les 3 ont raison !",
@@ -120,8 +118,7 @@ var quiz = [
             "choices"  : [
                     "Il dit que c’est magouille politique et compagnie.",
                     "Il a trouvé un logement facilement lui !",
-                    "Il prend jamais le RER ou quoi !?",
-                    "Il pense que le Grand Paris ça va rien changer aux inégalités."
+                    "Il prend jamais le RER ou quoi !?"
                          ],
             "correct" : "Il pense que le Grand Paris ça va rien changer aux inégalités.",
             "explanation" : "Le Grand Paris opposent souvent ceux qui sont pour et ceux qui sont contre. Ceux qui sont contre pensent souvent que ça va rien changer aux inégalités sociales, au contraire. Pour en savoir plus à la question « pourquoi le grand paris ? » et les arguments pour et contre ouvre la pop-up.",
@@ -132,8 +129,7 @@ var quiz = [
             "choices" : [
                                     "4",
                                     "6",
-                                    "8",
-                                    "12"
+                                    "8"
                                 ],
             "correct"   :   "4",
             "explanation" :   "Le nouveau réseau de transport apportera 4 nouvelles lignes de métro automatique autour de Paris : les lignes 15, 16, 17, 18.",
