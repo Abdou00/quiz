@@ -106,7 +106,7 @@ var quiz = [
             
             "choices"  : [
                     "Ludivine ajoute que c’est pour être plus fort économiquement que les autres capitales du monde",
-                    "Mamadou dit que c’est à cause du logement : y en a pas assez de construit chaque année ! Et des transports : le RER est saturé et il marche mal.",
+                    "Lee pense que c’est juste une question de pouvoir ",
                     "Tous les 3 ont raison !"
                          ],
             "correct" : "Tous les 3 ont raison !",
@@ -118,7 +118,7 @@ var quiz = [
             "choices"  : [
                     "Il dit que c’est magouille politique et compagnie.",
                     "Il a trouvé un logement facilement lui !",
-                    "Il prend jamais le RER ou quoi !?"
+                    "Il pense que le Grand Paris ça va rien changer aux inégalités."
                          ],
             "correct" : "Il pense que le Grand Paris ça va rien changer aux inégalités.",
             "explanation" : "Le Grand Paris opposent souvent ceux qui sont pour et ceux qui sont contre. Ceux qui sont contre pensent souvent que ça va rien changer aux inégalités sociales, au contraire. Pour en savoir plus à la question « pourquoi le grand paris ? » et les arguments pour et contre ouvre la pop-up.",
@@ -158,6 +158,8 @@ var currentquestion = 0,
         }
     }
 
+
+
     function nextQuestion() {
         submt = true;
         //alert("nQ");
@@ -174,6 +176,8 @@ var currentquestion = 0,
         }
         addChoices(quiz[currentquestion]['choices']);
         setupButtons();
+        progressBarValue = (Number(currentquestion + 1) / quiz.length) * 100
+        dispProgressBar();
     }
     
     function processQuestion() {
@@ -189,6 +193,7 @@ var currentquestion = 0,
             }
     }
 
+
     function setupButtons() {
         $('.choice').on('mouseover', function () {
             $(this).css({
@@ -202,7 +207,6 @@ var currentquestion = 0,
         })
         $('.choice').on('click', function () {
             //alert("");
-            $('.choice').off();
             choice = $(this).attr('data-index');
             $('.choice').removeAttr('style').off('mouseout mouseover');
             $(this).css({
@@ -224,7 +228,7 @@ var currentquestion = 0,
         }
             $("#submitbutton").click(function(){
                alert("click");
-                  $('.choice').off();
+                  $('.choice').off('click', choice);
                  $(this).off('click');
                  processQuestion(choice);
              });
@@ -254,7 +258,7 @@ var currentquestion = 0,
             g.id = 'imgId';
             $(g).css({
             'height':'100px',
-            'width': '100px',
+            'width': '300px',
             'margin-left':'40%'
         }).insertAfter('#explanation');
 
@@ -284,7 +288,7 @@ var currentquestion = 0,
         //add pager and questions
         if (typeof quiz !== "undefined" && $.type(quiz) === "array") {
             //add pager
-            $(document.createElement('p')).addClass('pager').attr('id', 'pager').text('Question 1 of ' + quiz.length).appendTo('#frame');
+            //$(document.createElement('p')).addClass('pager').attr('id', 'pager').text('Question 1 of ' + quiz.length).appendTo('#frame');
             //add first question
             $(document.createElement('h2')).addClass('question').attr('id', 'question').text(quiz[0]['question']).appendTo('#frame');
             //add image if present
@@ -302,7 +306,8 @@ var currentquestion = 0,
     }
 
     init();
-});/*
+});
+/*
 Script avec un bouton check anwser
 var currentquestion = 0,
  score = 0,
