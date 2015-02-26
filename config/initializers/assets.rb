@@ -8,4 +8,4 @@ Rails.application.config.assets.version = '1.0'
 
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
-Rails.application.config.assets.precompile += %w( bootstrap.min.css animate.css style.css default.css jquery.min.js bootstrap.min.js jquery.easing.min.js jquery.scrollTo.js wow.min.js custom.js )
+Rails.application.config.assets.precompile += %w( bootstrap.min.css animate.css style.css default.css jquery.min.js bootstrap.min.js jquery.easing.min.js jquery.scrollTo.js wow.min.js custom.js quiz.js)

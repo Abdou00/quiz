@@ -36,7 +36,7 @@ h5,
 h6 {
     margin: 0 0 30px;
     text-transform: uppercase;
-    font-family: Montserrat,sans-serif;
+    font-family: 'djb_poppyseedregular';
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -106,7 +106,7 @@ a:focus {
 .navbar-custom ul.nav li a {
   font-size: 12px;
   letter-spacing: 1px;
-    color: #444;
+  color: #444;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -270,11 +270,11 @@ hr {
 ============================ */
 
 .home-section {
-    padding-top: 110px;
-    padding-bottom: 110px;
+  padding-top: 110px;
+  padding-bottom: 110px;
   display:block;
-    position:relative;
-    z-index:120;
+  position:relative;
+  z-index:120;
 }
 
 
@@ -345,7 +345,7 @@ hr {
   font-size: 60px;
   line-height: 60px;
   font-weight: 700;
-  font-family: Montserrat, sans-serif;
+  font-family: 'djb_poppyseedregular';
   background-color: rgba(0, 0, 0, 0);
   text-decoration: none;
   text-transform: uppercase;
@@ -402,15 +402,15 @@ hr {
 .team-social a{
   margin:0;
   padding:0;
-    display: block;
+  display: block;
   width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    background: #3bbec0;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #3bbec0;
   color: #fff;
-    -webkit-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+  -webkit-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out;
 }
 .team-social a i{
   text-align: center;
@@ -569,7 +569,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 }
 
 .company-social li{
-    display: inline-block;
+  display: inline-block;
   margin:0 !important;
   padding:0;
 }
@@ -578,15 +578,15 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 .company-social a{
   margin:0;
   padding:0;
-    display: block;
+  display: block;
   width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    background: #3bbec0;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #3bbec0;
   color: #fff;
-    -webkit-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+  -webkit-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out;
 }
 .company-social a i{
   text-align: center;
@@ -645,7 +645,6 @@ Parallax
 
 #parallax2{ 
   background-image: url(../assets/parallax/2.jpg);
-
 }
 
 #parallax2:after  { 
@@ -667,117 +666,115 @@ Parallax
 
 .btn {
   border-radius: 0;
-    text-transform: uppercase;
-    font-family: Montserrat,sans-serif;
-    font-weight: 400;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
+  text-transform: uppercase;
+  font-family: 'djb_poppyseedregular';
+  font-weight: 400;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
-
 .btn-circle {
-    width: 70px;
-    height: 70px;
-    margin-top: 15px;
-    padding: 7px 16px;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    font-size: 40px;
-    color: #fff;
-    background: 0 0;
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
+  padding: 7px 16px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  font-size: 40px;
+  color: #fff;
+  background: 0 0;
+  -webkit-transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out;
 }
 
 .btn-circle.btn-dark {
-    border: 2px solid #666;
-    color: #666;
+  border: 2px solid #666;
+  color: #666;
 }
 
 
 .btn-circle:hover,
 .btn-circle:focus {
-    outline: 0;
-    color: #fff;
-    background: rgba(255,255,255,.1);
+  outline: 0;
+  color: #fff;
+  background: rgba(255,255,255,.1);
 }
 
 .btn-circle.btn-dark :hover,
 .btn-circle.btn-dark :focus {
-    outline: 0;
-    color: #999;
-    background: #fff;
+  outline: 0;
+  color: #999;
+  background: #fff;
 }
 
 .btn-circle.btn-dark :hover i,
 .btn-circle.btn-dark :focus i{
-    color: #999;
+  color: #999;
 }
 
 .page-scroll .btn-circle i.animated {
-    -webkit-transition-property: -webkit-transform;
-    -webkit-transition-duration: 1s;
-    -moz-transition-property: -moz-transform;
-    -moz-transition-duration: 1s;
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-duration: 1s;
+  -moz-transition-property: -moz-transform;
+  -moz-transition-duration: 1s;
 }
 
 .page-scroll .btn-circle:hover i.animated {
-    -webkit-animation-name: pulse;
-    -moz-animation-name: pulse;
-    -webkit-animation-duration: 1.5s;
-    -moz-animation-duration: 1.5s;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
+  -webkit-animation-name: pulse;
+  -moz-animation-name: pulse;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
 }
 
 @-webkit-keyframes pulse {    
-    0% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
+  0% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+  }
 
-    50% {
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
-    }
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
 
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
 }
 
 @-moz-keyframes pulse {    
-    0% {
-        -moz-transform: scale(1);
-        transform: scale(1);
-    }
+  0% {
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
 
-    50% {
-        -moz-transform: scale(1.2);
-        transform: scale(1.2);
-    }
+  50% {
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+  }
 
-    100% {
-        -moz-transform: scale(1);
-        transform: scale(1);
-    }
+  100% {
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
 }
 
 
 #text {
-    color: #fff;
-    background: #ffcc00;
+  color: #fff;
+  background: #ffcc00;
 }
 
 #map {
   height: 500px;
 }
-
 
 .btn-skin:hover,
 .btn-skin:focus,
@@ -791,58 +788,56 @@ Parallax
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #28c3ab;
-    outline: 0;
-    color: #000;
-    background-color: #28c3ab;
+  border: 1px solid #28c3ab;
+  outline: 0;
+  color: #000;
+  background-color: #28c3ab;
 }
 
 .btn-huge {
-    padding: 25px;
-    font-size: 26px;
+  padding: 25px;
+  font-size: 26px;
 }
 
 .banner-social-buttons {
-    margin-top: 0;
+  margin-top: 0;
 }
-
 
 /* Media queries */
 
 @media(min-width:767px) {
 
-    .navbar {
-        padding: 20px 0;
-        border-bottom: 0;
-        letter-spacing: 1px;
-        background: 0 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
+.navbar {
+  padding: 20px 0;
+  border-bottom: 0;
+  letter-spacing: 1px;
+  background: 0 0;
+  -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+  transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
 
-    .top-nav-collapse {
-        padding: 0;
-        background-color: #000;
-    }
+.top-nav-collapse {
+  padding: 0;
+  background-color: #000;
+}
 
-    .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid rgba(255,255,255,.3);
-    }
+.navbar-custom.top-nav-collapse {
+  border-bottom: 1px solid rgba(255,255,255,.3);
+}
   
-    .intro {
-        height: 100%;
-        padding: 0;
-    }
+.intro {
+  height: 100%;
+  padding: 0;
+}
 
-    .brand-heading {
-        font-size: 100px;
-    }
+.brand-heading {
+  font-size: 100px;
+}
   
-
-    .intro-text {
-        font-size: 25px;
-    }
+.intro-text {
+  font-size: 25px;
+}
 
 
 }
@@ -855,8 +850,6 @@ Parallax
   .boxed-grey {
     margin-bottom: 30px;
   }
-
-  
 }
 
 @media (max-width:480px) {
@@ -882,5 +875,4 @@ Parallax
     border-radius: 50%;
     font-size: 20px;
   }
-  
 }
