@@ -9,6 +9,7 @@ var quiz = [
         {
             "question" : "Q1: Tout ça c’est de la faute du vieux professeur Barban, qu’a mis de l’huile sur le feu avec ses grandes phrases à la noix. A ton avis qu’est–ce qu’il leur a dit pour les exciter comme çà… ?",
             
+            "image" : "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
             "choices" : [
                             " Savez-vous que demain Paris remontera toute la Seine et s’étendra jusqu’au Havre !?",
                             " Semaine prochaine, exposé : le Grand Paris, qu’est-ce que ça va changer ? ",
@@ -20,6 +21,7 @@ var quiz = [
         {
             "question" : "Q2: Du coup tout le monde s’y met. Selon Ludivine, le Grand Paris c'est la transformation de l’Île-de-France en une seule ville, le Grand Paris. T’en penses quoi ?",
             
+            "image" : "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
             "choices" : [
                     "L'Île de France... C'est quoi ?",
                     "Elle a en partie raison",
@@ -31,6 +33,7 @@ var quiz = [
         {
            "question" : "Q3: Mince alors !! Jean a perdu son livret de présentation du Grand Paris. Lui qui voulait impressionner ses potes en annonçant la date de lancement de la métropole du Grand Paris !! D’après toi, laquelle de ces dates est la bonne?",
            
+           "image" : "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
            "choices" : [
                     "1 janvier 2016",
                     "1 janvier 2017",
@@ -42,6 +45,7 @@ var quiz = [
         {
             "question" : "Q4: Anna cherche désespérément comment s'appelle le nouveau métro automatique du Grand Paris. A ton avis, tu dirais quoi toi ? ",
             
+             "image" : "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
             "choices"  : [
                     "L'Autometro",
                     "Le Grand Paris Express",
@@ -53,6 +57,7 @@ var quiz = [
         {
             "question" : "Q5: Mamadou qui cherche un appartement depuis 5 ans se demande si avec la Métropole du Grand Paris, il y aura plus de logement. Tu sais ça toi : combien de logements par année la métropole construira t-elle ?",
             
+            "image" : "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
             "choices" : [
                     "50 000 logements",
                     "70 000 logements",
@@ -64,6 +69,7 @@ var quiz = [
         {
             "question" : "Q6 : Nolwen et Mouloud débattent pour savoir qui a eu cette idée folle du grand Paris. D'après Nolwen c'est à Nicolas Sarkozy que l'on doit cette idée. Mouloud est certain que c'est l'un de ces hommes : lequel ?",
             
+            "image" : "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
             "choices"  : [
                     "Louis XIV",
                     "Napoléon III",
@@ -75,6 +81,7 @@ var quiz = [
         {
             "question" : "Q7 : Abdou en est persuadé : le professeur Barban va demander d’expliquer pourquoi faire le Grand Paris ? A ton avis qui a raison ?",
             
+            "image" : "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
             "choices"  : [
                     "Ludivine pense que c'est parce qu'il faut rééquilibrer l'économie en Île de France.",
                     "Mouloud est sûr à 100% que c'est parce que la banlieue c'est moche donc faut la dissoudre dans Paris qui est plus beau !",
@@ -86,6 +93,7 @@ var quiz = [
         {
             "question" : "Q8 : Mais Ludivine persiste et signe et ça relance encore le débat… et toi tu dirais que c’est qui qu’a raison cette fois ?",
             
+            "image" : "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
             "choices"  : [
                     "Ludivine ajoute que c’est pour être plus fort économiquement que les autres capitales du monde",
                     "Lee pense que c’est juste une question de pouvoir ",
@@ -97,6 +105,7 @@ var quiz = [
         {
             "question" : "Q9 : Antoine lui n’est pas d’accord du tout. Il pense que tout ça c’est du flan. A ton avis pourquoi ?",
             
+            "image" : "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
             "choices"  : [
                     "Il dit que c’est magouille politique et compagnie.",
                     "Il a trouvé un logement facilement lui !",
@@ -108,6 +117,7 @@ var quiz = [
         {
             "question" : "Q10: Selon Rosa, avec le Grand Paris Express il y aura 7 nouvelles lignes de métro automatique pour le métro parisien. Et d'après-vous ?",
             
+            "image" : "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
             "choices" : [
                                     "4",
                                     "6",

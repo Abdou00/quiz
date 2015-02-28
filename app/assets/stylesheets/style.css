@@ -29,11 +29,18 @@ html {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
 h6 {
+    margin: 0 0 30px;
+    text-transform: uppercase;
+    font-family: 'djb_poppyseedregular';
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#title{
     margin: 0 0 30px;
     text-transform: uppercase;
     font-family: 'djb_poppyseedregular';
@@ -435,13 +442,14 @@ hr {
 /*                   Quizz Frame                        */
 /***********************************************************/
 #frame {
-  max-width:800px;
-  width:800px;
-  height: 560px;
+  max-width:1000px;
+  width:860px;
+  height: 600px;
   background: #5C88EF;
   opacity: 0.8;
   border: 2px solid #FF9900;
   border-radius: 50px;
+  margin-top:-50px;
 }
 h1 {
   font-family:'djb_poppyseedregular';
@@ -450,9 +458,9 @@ h1 {
   width:auto;
   color: #000000;
 }
-h2 {
+#question {
   font-family:'djb_poppyseedregular';
-  font-size:1.2em;
+  font-size:1.5em;
   padding:0;
   text-align:center;
   margin:20px 0;
@@ -460,14 +468,18 @@ h2 {
   color: #000000;
 }
 
+#logo{
+  float:right;
+}
+
 img.question-image {
   display:block;
-  max-width:700px;
+  max-width:600px;
   margin:10px auto;
-  border:1px solid #ccc;
-  border-radius: 20px;
+  border:3px solid #FF9900;
+  border-radius: 10px;
   width:100%;
-  height:200px;
+  height:150px;
 }
 #choice-block {
   display:block;
@@ -498,28 +510,16 @@ img.question-image {
   display:block;
   text-align:center;
   font-size: 1.2em;
-  margin:8px auto;
-  margin-left: 30px;
+  margin:5px auto;
+  margin-left: 40px;
+  margin-right:10px;
   padding:10px 0;
   border:1px solid #666;
   cursor:pointer;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  border-radius: 5px;
+  border-radius: 30px;
 }
-
-.frame-wrapper {
-  padding: 100px;
-}
-.frame {
-  padding: 1px 50px 50px;
-  background: white;
-  border-radius: 5px;
-  box-shadow: 3px -3px 0px 1px #C0CCCA;
-  min-width: 230px;
-  margin-top: -4%;
-}
-
 
 
 /* ===========================
