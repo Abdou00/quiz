@@ -4,244 +4,241 @@
     <div id="load"></div>
   </div>
 
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="index.html">
-                    <img src="http://res.cloudinary.com/dxsgwgbyd/image/upload/v1424949455/bloggif_54ef00c604d8a_wvlcbo.png" alt="" id="logo">
-                </a>
-            </div>
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+        <i class="fa fa-bars"></i>
+      </button>
+        <a class="navbar-brand" href="index.html">
+          <img src="http://res.cloudinary.com/dxsgwgbyd/image/upload/v1424949455/bloggif_54ef00c604d8a_wvlcbo.png" alt="" id="logo">
+       </a>
+  </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                  <li class="active"><a href="#intro">Home</a></li>
-                  <li><a href="#about">Équipe</a></li>
-                  <li><a href="#service">Quizz</a></li>
-                  <li><a href="#contact">Contact</a></li>
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ma Metrobx <b class="caret"></b></a>
-                      <ul class="dropdown-menu">
-                        <li><%= link_to "Sign up now!", signup_path %></li>
-                      <% if logged_in? %>
-                        <li><%= link_to "Utilisateurs", users_path %></li>
-                        <li class="dropdown">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            Account <b class="caret"></b>
-                          </a>
-                            <li><%= link_to "Profil", current_user %></li>
-                            <li><%= link_to "Paramêtres", edit_user_path(current_user) %></li>
-                            <li class="divider"></li>
-                        <li>
-                          <%= link_to "Log out", logout_path, method: "delete" %>
-                        </li>
-                        </li>
-                      <% else %>
-                        <li><%= link_to "Log in", login_path %></li>
-                      <% end %>
-                    </ul>
-                  </li>
-                </ul> 
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#intro">Home</a></li>
+      <li><a href="#about">Équipe</a></li>
+      <li><a href="#service">Quizz</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Ma Metrobx <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><%= link_to "Sign up now!", signup_path %></li>
+              <% if logged_in? %>
+                <li><%= link_to "Utilisateurs", users_path %></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    Account <b class="caret"></b>
+                  </a>
+                <li><%= link_to "Profil", current_user %></li>
+                <li><%= link_to "Paramêtres", edit_user_path(current_user) %></li>
+                <li class="divider"></li>
+                <li>
+                  <%= link_to "Log out", logout_path, method: "delete" %>
+                </li>
+            </li>
+              <% else %>
+            <li><%= link_to "Log in", login_path %></li>
+              <% end %>
+          </ul>
+        </li>
+    </ul> 
+  </div>
+<!-- /.navbar-collapse -->
+  </div>
+<!-- /.container -->
+</nav>
 
-  <!-- Section: intro -->
-    <section id="intro" class="intro">
+<!-- Section: intro -->
+<section id="intro" class="intro">
   
-    <div class="slogan">
-      <h2 id="title">Bienvenue dans le <span class="text_color">Grand Paris</span> </h2>
+  <div class="slogan">
+    <h2 id="title">Bienvenue dans le <span class="text_color">Grand Paris</span> </h2>
       <h4>VENEZ TESTER VOS CONAISSANCES DU GRAND PARIS AVEC NOTRE QUIZZ</h4>
-    </div>
-    <div class="page-scroll">
-      <a href="#service" class="btn btn-circle">
-        <i class="fa fa-angle-double-down animated"></i>
-      </a>
-    </div>
-    </section>
-  <!-- /Section: intro -->
-
-  <!-- Section: L'Équipe -->
-    <section id="about" class="home-section text-center">
-    <div class="heading-about">
-      <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <div class="wow bounceInDown" data-wow-delay="0.4s">
-          <div class="section-heading">
-          <h2 id="title">L'Équipe</h2>
-          <i class="fa fa-2x fa-angle-down"></i>
-
-          </div>
-          </div>
-        </div>
-      </div>
-      </div>
-    </div>
-    <div class="container">
-
-    <div class="row">
-      <div class="col-lg-2 col-lg-offset-5">
-        <hr class="marginbot-50">
-      </div>
-    </div>
-        <div class="row">
-            <div class="col-xs-6 col-sm-3 col-md-3">
-        <div class="wow bounceInUp" data-wow-delay="0.2s">
-                <div class="team boxed-grey">
-                    <div class="inner">
-            <h5>Julien Neiertz</h5>
-                        <p class="subtitle">Le Métropolitain</p>
-                        <div class="avatar"><img src="http://res.cloudinary.com/dxsgwgbyd/image/upload/v1424520157/caricature-francois-hollande1_ky6dgd.jpg" alt="" class="img-responsive img-circle" /></div>
-                    </div>
-                </div>
-        </div>
-            </div>
-      <div class="col-xs-6 col-sm-3 col-md-3">
-        <div class="wow bounceInUp" data-wow-delay="0.5s">
-                <div class="team boxed-grey">
-                    <div class="inner">
-            <h5>Antoine Le Pessec</h5>
-                        <p class="subtitle">Le Serieux</p>
-                        <div class="avatar"><img src="http://res.cloudinary.com/dxsgwgbyd/image/upload/v1424518440/4_tafkyl.jpg" alt="" class="img-responsive img-circle" /></div>
-
-                    </div>
-                </div>
-        </div>
-            </div>
-      <div class="col-xs-6 col-sm-3 col-md-3">
-        <div class="wow bounceInUp" data-wow-delay="0.8s">
-                <div class="team boxed-grey">
-                    <div class="inner">
-            <h5>Amin Ben Amaar</h5>
-                        <p class="subtitle">Le Président</p>
-                        <div class="avatar"><img src="http://res.cloudinary.com/dxsgwgbyd/image/upload/v1424518436/3_mvhtqc.jpg" alt="" class="img-responsive img-circle" /></div>
-
-                    </div>
-                </div>
-        </div>
-            </div>
-      <div class="col-xs-6 col-sm-3 col-md-3">
-        <div class="wow bounceInUp" data-wow-delay="1s">
-                <div class="team boxed-grey">
-                    <div class="inner">
-            <h5>Abdoulaye Diarra</h5>
-                        <p class="subtitle">Le Calme</p>
-                        <div class="avatar"><img src="http://res.cloudinary.com/dxsgwgbyd/image/upload/v1424518424/1_fq53h5.jpg" alt="" class="img-responsive img-circle" /></div>
-
-                    </div>
-                </div>
-        </div>
-            </div>
-        </div>    
-    </div>
-  </section>
-  <!-- /Section: about -->
-  
-
-  <!-- Section: Quizz -->
-<section id="service" class="home-section text-center bg-gray">
-    
-    <div class="heading-about">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4 col-sm-offset-2">
-            <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
-              <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-                <div class="global">
-                  <div id = "frame"
-                        role = "content" >
-                      <div class="bar">
-                      </div>
-                      <a id="reload" href="javascript:window.location.reload();"><img src="http://res.cloudinary.com/dxsgwgbyd/image/upload/v1425032670/bloggif_54f045b1b07a9_qlmbgn.png"></a>
-
-                  </div>
-                </div> 
-          </div>
-        </div>
-      </div>
-    </div>    
+  </div>
+  <div class="page-scroll">
+    <a href="#service" class="btn btn-circle">
+      <i class="fa fa-angle-double-down animated"></i>
+    </a>
+  </div>
 </section>
-  <!-- /Section: Quizz -->
-  
+<!-- /Section: intro -->
 
-  
-
-  <!-- Section: contact -->
-    <section id="contact" class="home-section text-center">
-    <div class="heading-contact">
-      <div class="container">
+<!-- Section: L'Équipe -->
+<section id="about" class="home-section text-center">
+  <div class="heading-about">
+    <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <div class="wow bounceInDown" data-wow-delay="0.4s">
-          <div class="section-heading">
-          <h2 id="title">Contactez-Nous</h2>
-          <i class="fa fa-2x fa-angle-down"></i>
-
-          </div>
+            <div class="section-heading">
+              <h2 id="title">L'Équipe</h2>
+                <i class="fa fa-2x fa-angle-down"></i>
+            </div>
           </div>
         </div>
       </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-2 col-lg-offset-5">
+      <hr class="marginbot-50">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-6 col-sm-3 col-md-3">
+      <div class="wow bounceInUp" data-wow-delay="0.2s">
+        <div class="team boxed-grey">
+          <div class="inner">
+            <h5>Julien Neiertz</h5>
+              <p class="subtitle">Le Métropolitain</p>
+                <div class="avatar"><img src="http://res.cloudinary.com/dxsgwgbyd/image/upload/v1424520157/caricature-francois-hollande1_ky6dgd.jpg" alt="" class="img-responsive img-circle" /></div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="container">
 
+    <div class="col-xs-6 col-sm-3 col-md-3">
+      <div class="wow bounceInUp" data-wow-delay="0.5s">
+        <div class="team boxed-grey">
+          <div class="inner">
+            <h5>Antoine Le Pessec</h5>
+              <p class="subtitle">Le Serieux</p>
+                <div class="avatar"><img src="http://res.cloudinary.com/dxsgwgbyd/image/upload/v1424518440/4_tafkyl.jpg" alt="" class="img-responsive img-circle" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-6 col-sm-3 col-md-3">
+      <div class="wow bounceInUp" data-wow-delay="0.8s">
+        <div class="team boxed-grey">
+          <div class="inner">
+            <h5>Amin Ben Amaar</h5>
+              <p class="subtitle">Le Président</p>
+                <div class="avatar"><img src="http://res.cloudinary.com/dxsgwgbyd/image/upload/v1424518436/3_mvhtqc.jpg" alt="" class="img-responsive img-circle" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-6 col-sm-3 col-md-3">
+      <div class="wow bounceInUp" data-wow-delay="1s">
+        <div class="team boxed-grey">
+          <div class="inner">
+            <h5>Abdoulaye Diarra</h5>
+              <p class="subtitle">Le Calme</p>
+                <div class="avatar"><img src="http://res.cloudinary.com/dxsgwgbyd/image/upload/v1424518424/1_fq53h5.jpg" alt="" class="img-responsive img-circle" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>    
+</div>
+</section>
+<!-- /Section: about -->
+  
+
+<!-- Section: Quizz -->
+<section id="service" class="home-section text-center bg-gray">
+  <div class="heading-about">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 col-sm-offset-2">
+          <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+              <div class="global">
+                <div id = "frame"
+                  role = "content" >
+                    <div class="bar">
+                    </div>
+                    <a id="reload" href="javascript:window.location.reload();"><img src="http://res.cloudinary.com/dxsgwgbyd/image/upload/v1425032670/bloggif_54f045b1b07a9_qlmbgn.png"></a>
+                </div>
+              </div> 
+        </div>
+      </div>
+    </div>
+  </div>    
+</section>
+<!-- /Section: Quizz -->
+
+<!-- Section: contact -->
+<section id="contact" class="home-section text-center">
+  <div class="heading-contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="wow bounceInDown" data-wow-delay="0.4s">
+            <div class="section-heading">
+              <h2 id="title">Contactez-Nous</h2>
+                <i class="fa fa-2x fa-angle-down"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
     <div class="row">
       <div class="col-lg-2 col-lg-offset-5">
         <hr class="marginbot-50">
       </div>
     </div>
+
     <div class="row">
-        <div class="col-lg-8">
-            <div class="boxed-grey">
-                <form id="contact-form">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="name">
-                                Nom:</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter nom" required="required" />
-                        </div>
-                        <div class="form-group">
-                            <label for="email">
-                                Addresse Email:</label>
-                            <div class="input-group">
-                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
-                                </span>
-                                <input type="email" class="form-control" id="email" placeholder="Entrer email" required="required" /></div>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">
-                                Sujet:</label>
-                            <select id="subject" name="subject" class="form-control" required="required">
-                                <option value="na" selected="">Choisir:</option>
-                                <option value="service">General Customer Service</option>
-                                <option value="suggestions">Suggestions</option>
-                                <option value="product">Product Support</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="name">
-                                Message</label>
-                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
-                                placeholder="Message"></textarea>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
-                            Envoyer</button>
-                    </div>
+      <div class="col-lg-8">
+        <div class="boxed-grey">
+          <form id="contact-form">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="name">
+                    Nom:</label>
+                      <input type="text" class="form-control" id="name" placeholder="Enter nom" required="required" />
                 </div>
-                </form>
-            </div>
+
+                <div class="form-group">
+                  <label for="email">
+                    Addresse Email:</label>
+                      <div class="input-group">
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+                          <input type="email" class="form-control" id="email" placeholder="Entrer email" required="required" /></div>
+                      </div>
+
+                      <div class="form-group">
+                        <label for="subject">
+                          Sujet:</label>
+                            <select id="subject" name="subject" class="form-control" required="required">
+                              <option value="na" selected="">Choisir:</option>
+                              <option value="service">General Customer Service</option>
+                              <option value="suggestions">Suggestions</option>
+                              <option value="product">Product Support</option>
+                            </select>
+                      </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="name">
+                      Message</label>
+                        <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                               placeholder="Message"></textarea>
+                  </div>
+                </div>
+
+                <div class="col-md-12">
+                  <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
+                    Envoyer</button>
+                </div>
+              </div>
+          </form>
         </div>
+    </div>
     
     <div class="col-lg-4">
       <div class="widget-contact">
@@ -260,18 +257,16 @@
         </address>  
         <address>
           <strong>Nos partenaires sociaux:</strong><br>
-                        <ul class="company-social">
-                            <li class="social-facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                            <li class="social-twitter"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                            <li class="social-dribble"><a href="#" target="_blank"><i class="fa fa-dribbble"></i></a></li>
-                            <li class="social-google"><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-                        </ul> 
-        </address>          
-      
+            <ul class="company-social">
+              <li class="social-facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li class="social-twitter"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li class="social-dribble"><a href="#" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+              <li class="social-google"><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+            </ul> 
+        </address>
       </div>  
     </div>
-    </div>  
-
-    </div>
-  </section>
-  <!-- /Section: contact -->
+  </div>
+</div>
+</section>
+<!-- /Section: contact -->
