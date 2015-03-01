@@ -11,9 +11,9 @@ var quiz = [
             
             "image" : "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
             "choices" : [
-                            " Savez-vous que demain Paris remontera toute la Seine et s’étendra jusqu’au Havre !?",
-                            " Semaine prochaine, exposé : le Grand Paris, qu’est-ce que ça va changer ? ",
-                            " Le Grand Paris ça n’existe pas ! "
+                            "La banlieue c’est fini, demain c’est le Grand Paris ! ",
+                            "Semaine prochaine, exposé : le Grand Paris, qu’est-ce que ça va changer ? ",
+                            "Le Grand Paris ça n’existe pas ! "
                         ],
             "correct" : " Semaine prochaine, exposé : le Grand Paris, qu’est-ce que ça va changer ? ",
             "explanation ": "Le grand Paris existe-t-il ? En tout cas il est en train de se faire. Certains y voient la fin des banlieues de Paris. D’autres aimeraient que Paris aille jusqu’au Havre. Tout çà n’est ni faux ni vrai. La réponse la plus sûre c’est… que semaine prochaine y a interro !",
