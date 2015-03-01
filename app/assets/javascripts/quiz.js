@@ -11,11 +11,11 @@ var quiz = [
             
             "image" : "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
             "choices" : [
-                            "La banlieue c’est fini, demain c’est le Grand Paris ! ",
-                            "Semaine prochaine, exposé : le Grand Paris, qu’est-ce que ça va changer ? ",
-                            "Le Grand Paris ça n’existe pas ! "
+                            "Savez-vous que demain Paris remontera toute la Seine et s’étendra jusqu’au Havre !?",
+                            "Semaine prochaine, exposé : le Grand Paris, qu’est-ce que ça va changer ?",
+                            "Le Grand Paris ça n’existe pas !"
                         ],
-            "correct" : " Semaine prochaine, exposé : le Grand Paris, qu’est-ce que ça va changer ? ",
+            "correct" : "Semaine prochaine, exposé : le Grand Paris, qu’est-ce que ça va changer ?",
             "explanation ": "Le grand Paris existe-t-il ? En tout cas il est en train de se faire. Certains y voient la fin des banlieues de Paris. D’autres aimeraient que Paris aille jusqu’au Havre. Tout çà n’est ni faux ni vrai. La réponse la plus sûre c’est… que semaine prochaine y a interro !",
         },
         {
@@ -28,7 +28,7 @@ var quiz = [
                     "C’est totalement faux !"
                         ],
              "correct" : "C’est totalement faux !",
-             "explanation" : "L’Ile de France c’est une Région. Le Grand Paris ce sera une métropole c’est à dire un regroupement des villes des 3 départements de la petite couronne (92, 93, 94) et de Paris.",
+             "explanation" : "L’Ile de France c’est une Région. Le Grand Paris ce sera une métropole c’est à dire un regroupement des villes des 3 départements de la petite couronne (92, 93, 94) et de Paris(75).",
         },
         {
            "question" : "Q3: Mince alors !! Jean a perdu son livret de présentation du Grand Paris. Lui qui voulait impressionner ses potes en annonçant la date de lancement de la métropole du Grand Paris !! D’après toi, laquelle de ces dates est la bonne?",
@@ -40,7 +40,7 @@ var quiz = [
                     "1 janvier 2018"
                         ],
             "correct" : "1 janvier 2016",
-            "explanation" : "La création de la métropole est prévue pour le 1er janvier 2016. C’est une loi très récente, la loi Mapam votée en décembre 2013, qui l’a décidée ",
+            "explanation" : "La création de la métropole est prévue pour le 1er janvier 2016. C’est une loi très récente, la loi Maptam votée en décembre 2013, qui l’a décidée ",
         },
         {
             "question" : "Q4: Anna cherche désespérément comment s'appelle le nouveau métro automatique du Grand Paris. A ton avis, tu dirais quoi toi ? ",
@@ -64,7 +64,7 @@ var quiz = [
                     "100 000 logements"
                          ],
             "correct" : "70 000 logements",
-            "explanation" : "Le Grand Paris prévoit de construire 70 000 logements par année. Soit le double de ce que l'on construit actuellement. C’est l’objectif mais y parviendra-t-elle ? pourrait te répondre Mamadou. ",
+            "explanation" : "Le Grand Paris prévoit de construire 70 000 logements par année. Soit le double de ce qui est construit actuellement. C’est l’objectif mais y parviendra-t-elle ? pourrait te répondre Mamadou. ",
         },
         {
             "question" : "Q6 : Nolwen et Mouloud débattent pour savoir qui a eu cette idée folle du grand Paris. D'après Nolwen c'est à Nicolas Sarkozy que l'on doit cette idée. Mouloud est certain que c'est l'un de ces hommes : lequel ?",
@@ -97,9 +97,9 @@ var quiz = [
             "choices"  : [
                     "Ludivine ajoute que c’est pour être plus fort économiquement que les autres capitales du monde",
                     "Lee pense que c’est juste une question de pouvoir ",
-                    "Tous les 3 ont raison !"
+                    "Tous les 2 ont raison !"
                          ],
-            "correct" : "Tous les 3 ont raison !",
+            "correct" : "Tous les 2 ont raison !",
             "explanation": "Il y a plusieurs explications : le problème économique, celui des transports, du logement et du pouvoir (qui décide de quoi ?) sont aussi importants, ce sont les 4 enjeux les plus fréquemment cités pour justifier la construction du Grand Paris. D’autres pensent que ce sont avant tout les questions d’environnement et d’inégalités qui sont importantes.",
         },
         {
@@ -121,11 +121,35 @@ var quiz = [
             "choices" : [
                                     "4",
                                     "6",
-                                    "8"
+                                    "12"
                                 ],
             "correct"   :   "4",
             "explanation" :   "Le nouveau réseau de transport apportera 4 nouvelles lignes de métro automatique autour de Paris : les lignes 15, 16, 17, 18.",
         },
+        {
+            "question" : "Q11: Jean dit qu’il doit se rendre à l'aéroport d'Orly depuis Saint-Denis. Il prétend qu'avec le Grand Paris Express il pourra le faire avec un seul ticket",
+            
+            "image" : "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
+            "choices" : [
+                                    "Non, il en faudrait au moins 2 répond Abdou",
+                                    "Jasmine assure que ce sera possible.",
+                                    "Au fait c'est quoi l'intérêt si je prends jamais l'avion ? demande Eliot."
+                                ],
+            "correct"   :   "Jasmine assure que ce sera possible.",
+            "explanation" :   "Le nouveau réseau de transport prévoit en dehors des 4 nouvelles lignes de métro, le prolongement de la ligne 11 jusqu’à Noisy Champs et… celui de la ligne 14 de St Denis Pleyel jusqu’à Orly à l’horizon… 2027 !",
+        },
+        {
+            "question" : "Q12: D’après Amin en 2016, révolution dans les transports : ça sera la fin des zones ! Avec le Grand Paris il n’y aura plus qu’une seule zone ! Tu lui réponds quoi toi ?",
+            
+            "image" : "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
+            "choices" : [
+                                    "Calomnie, ça va pas non ! Les zones, ça existera toujours.",
+                                    "C’est possible mais c’est une décision qui appartient à la Région Île-de-France.",
+                                    "Tout à fait, le 1er ministre l’a décidé."
+                                ],
+            "correct"   :   "C’est possible mais c’est une décision qui appartient à la Région Île-de-France.",
+            "explanation" :   "Ce n’est pas le nouveau réseau de transport Grand Paris Express ni la Métropole du Grand Paris qui pourra décider de la fin des zones mais la Région Île-de-France qui dirige le STIF, le syndicat des transports de la région Île-de-France. C’est dans son programme et devrait être appliqué à la rentrée 2015 mais… ça coute très cher.",
+        }
     ];
 
 var currentquestion = 0,
@@ -139,8 +163,7 @@ var currentquestion = 0,
     function htmlEncode(value) {
         return $(document.createElement('div')).text(value).html();
     }
-
-
+  
     function addChoices(choices) {
         if (typeof choices !== "undefined" && $.type(choices) == "array") {
             $('#choice-block').empty();
@@ -149,8 +172,6 @@ var currentquestion = 0,
             }
         }
     }
-
-
 
     function nextQuestion() {
         submt = true;
@@ -228,6 +249,8 @@ var currentquestion = 0,
             if (submt) {
                 //alert("submit");
                 submt = false;
+                $('.choice').off('click');
+                $(this).off('click');
                 setTimeout(processQuestion,2000);
             }
         })
