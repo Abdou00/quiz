@@ -20,7 +20,7 @@ end
 
 Mail.deliver do
   to 'from@example.com'
-  from 'samba4292@gmail.com'
+  from 'sender@example.comt'
   subject 'testing send mail'
   body 'Welcome to the Sample App! Click on the link below to activate your account'
 end
